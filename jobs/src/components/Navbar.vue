@@ -7,7 +7,7 @@
 </script>
 
 <template>
-    <div class="bg-gray-900 text-gray-100 py-6 px-6 shadow md:flex justify-between items-center">
+    <div class="bg-gray-900 text-gray-100 py-6 px-6 shadow flex justify-between items-center">
         <div class="items-center text-green-500 text-3xl hover:text-green-200">
             <RouterLink to="/">Logo</RouterLink>
         </div>
@@ -21,3 +21,5 @@
     </div>
 </template>
 
+<style>
+</style>

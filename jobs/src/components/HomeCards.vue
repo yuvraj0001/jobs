@@ -10,7 +10,7 @@
                 <h2 class="text-4xl font-extrabold text-white md:text-6xl">
                     Become a Vue Dev
                 </h2> 
-                <p class="my-4 text-xl text-white">Find the Vue job that fits your skills and needs</p>
+                <p class="my-4 py-8 text-xl text-white">Find the Vue job that fits your skills and needs</p>
             </div>
         </div>
 
