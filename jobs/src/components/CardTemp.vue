@@ -1,5 +1,6 @@
 <script setup>
 import { defineProps } from 'vue';
+import { RouterLink } from 'vue-router';
 
 defineProps({
     job: Object
@@ -14,8 +15,10 @@ defineProps({
                 <h2 class="absolute top-4 left-4 text-green-600 text-3xl">{{job.title}}</h2>
             </div>
             <div lass="items-center">
-                <p class="w-64 h-64 m-4 inline-block font-bold text-white">{{ job.description }}
-                </p>
+                <p class="w-64 h-64 m-4 inline-block text-white">{{ job.description }}</p>
+            </div>
+            <div class="items-center text-right">
+                <RouterLink :to="'/job/' + job.id" class="text-green-300 m-auto hover:text-green-600">View</RouterLink>
             </div>
         </div>
     </section>

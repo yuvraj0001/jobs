@@ -6,7 +6,7 @@ const jlist = jobs.jobs;
 
 <template>
     <section>
-        <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 bg-slate-200 shadow">
               <CardTemp v-for="job in jlist" :key="job.id" :job="job"/>
             {{ console.log(jlist) }}
         </div>

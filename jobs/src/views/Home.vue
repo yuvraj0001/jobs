@@ -8,7 +8,6 @@ import JobListing from '@/components/JobListing.vue';
 </script>
 
 <template>
-    <Navbar/>
     <HomeCards/>
     <SecondCard/>
     <!-- <CardTemp/> -->
